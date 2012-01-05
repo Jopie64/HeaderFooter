@@ -1,0 +1,17 @@
+
+/LibMakers/Release
+/LibMakers/Debug
+/lib
+*.user
+*.aps
+*.suo
+*.ncb
+ 
+Debug/
+Release/
+tests
+
+/ext/svn/doc
+/ext/svn/include
+/ext/svn/lib
+/ext/svn/README.txt
