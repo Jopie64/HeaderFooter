@@ -1,33 +1,24 @@
-========================================================================
-    CONSOLE APPLICATION : HeaderFooter Project Overview
-========================================================================
+ 
+ 
+ HeaderFooter.exe searches for headers and footers of files in a folder
+ Copyright (C) 2012  Johan 't Hart (Made for Digirec Data Recovery) 
 
-AppWizard has created this HeaderFooter application for you.
+Usage: Put headerfooter.exe in the folder you want to investigate.
 
-This file contains a summary of what you will find in each of the files that
-make up your HeaderFooter application.
+Commands: 
+HeaderFooter list <file> [-h <header size>] [-f <footer size>]
+HeaderFooter list * [-h <header size>] [-f <footer size>]
+
+The default header and footersize is 10 hexadecimal characters
 
 
-HeaderFooter.vcproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation. 
 
-HeaderFooter.cpp
-    This is the main application source file.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+	http://www.gnu.org/licenses/
 
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named HeaderFooter.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
