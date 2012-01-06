@@ -72,7 +72,7 @@ void cmd(CmdLine& cmdLine)
 		if(i.IsDirectory()) continue;
 		//wcout << i.File().name << L": ";
 		dumpHeaderFooter(ctxt, i.File().name);
-		wcout << " - " << i.File().name;
+		wcout << "- " << i.File().name;
 		wcout << endl;
 	}
 }
