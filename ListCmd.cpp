@@ -40,7 +40,7 @@ void dumpHeaderFooter(Ctxt& ctxt, const wstring& file)
 	if(slash == wstring::npos)
 		path = file;
 	else
-		path = ctxt.dir.substr(slash + 1) + file;
+		path = ctxt.dir.substr(0,slash + 1) + file;
 
 	ifstream fileStr(JStd::String::ToMult(path, CP_UTF8).c_str(), ios::binary | ios::in);
 	dumpStr(ctxt, fileStr, wcout, ctxt.headerSz);
